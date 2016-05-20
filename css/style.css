@@ -1,0 +1,59 @@
+@import url(http://allfont.ru/allfont.css?fonts=lobster);
+@import url(http://allfont.ru/allfont.css?fonts=arimo);
+@import url(http://allfont.ru/allfont.css?fonts=arimo-bold);
+body{
+    font-family: 'Arimo', Arial;
+}
+header{
+    height: 600px;
+    background-image: url("../img/background-image.png");
+    color: white;
+}
+a,
+a:hover,
+a:visited {
+    color:white;
+}
+
+header h1{
+    font-family: 'Lobster', Arial;
+    font-size: 60px;
+}
+main h2{
+    font-family: 'Lobster', Arial;
+    font-size: 45px;
+    color: #e56043;
+}
+main h3{
+    font-family: 'Lobster', Arial;
+    font-size: 30px;
+}
+.logo{
+    margin-top: 10px !important;
+    margin-left: 50px;
+    font-family: 'Lobster', Arial;
+    font-size: 20px;
+}
+
+.loginBtn{
+    border-radius: 0;
+}
+.joinBtn{
+    color: #ffffff;
+    background-color: #f7b12a;
+    border-radius: 0;
+}
+.mainmenu-wrap:before, .mainmenu-wrap:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.navbar-header{
+    max-height: 50px;
+    display: inline;
+    padding-top: 30px;
+}
+.decorated-text{
+    padding: 10px 0;
+}
