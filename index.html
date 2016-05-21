@@ -6,61 +6,72 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap_col_5.css">
     <script src="js/app.js"></script>
 </head>
 <body>
+<section class="section-header">
+    <header>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 mainmenu-wrap">
+                <div class="main-menu-icon visible-xs">
+                </div>
+                <div class="navbar-header">
+                    <span class="logo">Digmakers</span>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 ">
+
+                <a href="#" class="link-a firePit-link"><img src="img/firepit.png" alt="firepit">Our story</a>
+
+                <input class="input-top" type="text" placeholder="Email address">
+                <button class="joinBtn">Join</button>
+
+                <a href="#" class="loginBtn link-a"><img src="img/loginIcon.png" alt="loginIcon">Log in</a>
+
+            </div>
+        </div>
+        <div class="container header-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Discover things created around you!</h1>
+                </div>
+            </div>
+            <div class="row header-content-main">
+                <div class="col-md-6">
+                    <div class="border-right">
+                        <p class="txt-header">Learn, get inspired, and travel differentely with production tours, master classes, and local products from makers</p>
+
+                        <div class="input-box">
+                            <input class="input-header" type="text" placeholder="Enter city to find makers around you">
+                            <div class="input-icon"></div>
+                        </div>
+                    </div>
+                    <div class="earth-icon"><a href="/"></a></div>
+                    <p class="earth-icon-txt">or <a class="link-a" href="/">explore all</a></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-content-main-right">
+                        <p class="">Do you know interesting makers?<br>Share with the world!</p>
+                        <button class="addBtn">Add a maker</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+<main>
     <div class="container">
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 mainmenu-wrap">
-                        <div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
-                        <div class="navbar-header">
-                                <span class="logo">Digmakers</span>
-                        </div>
-                        <div class="navbar-collapse collapse pull-right">
-                            <a href="#"><img src="img/firepit.png" alt="">Our story</a>
-
-                            <input class="form-control" type="text" placeholder="Email address">
-                            <button class="btn joinBtn">Join</button>
-
-                            <a href="#" class="loginBtn"><img src="img/loginIcon.png" alt="">Log in</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container header-content">
-                    <div class="row">
-                        <h1 class="header-content">Discover things created around you!</h1>
-                        <div class="col-md-6">
-                            <br>
-                            <br>
-                            <span>Learn, get inspired, and travel differentely with production tours, master classes, and local products from makers</span>
-                            
-                        </div>
-                        <div class="col-md-6">
-                            <span>Do you know interesting makers?</span></br>
-                            <span>Share with the world!</span>
-                        </div>
-                    </div>
-                    <div>
-                        <input class="form-control" type="text">
-                    </div>
-                    <a href="/"><img src="img/earth.png" alt=""></a>
-                    <span>or <a href="/">explore all</a></span>
-                </div>
-            </div>
-        </header>
-    </div>
-    <main>
-        <div class="container">
+        <div class="main-top-container">
             <div class="row">
-                <div class="col-dm-12">
-                    <h3 class="text-center section_header">How it works</h3>
+                <div class="col-md-12">
+                    <h3 class="text-center main_h3">How it works</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="block col-sm-6 col-md-3">
-                    <div class="text-center">
+                <div class="block col-sm-3 col-md-3">
+                    <div class="text-center howitworks-txt">
                         <div class="caption">
                             <span>Enter location you</span><br>
                             <span>are traveling to</span>
@@ -68,8 +79,8 @@
                         <img src="img/world.png" alt="world">
                     </div>
                 </div>
-                <div class="block col-sm-6 col-md-3">
-                    <div class="text-center">
+                <div class="block col-sm-3 col-md-3">
+                    <div class="text-center howitworks-txt">
                         <div class="caption">
                             <span>Choose maker</span><br>
                             <span>you want to visit</span>
@@ -77,8 +88,8 @@
                         <img src="img/todo.png" alt="todo">
                     </div>
                 </div>
-                <div class="block col-sm-6 col-md-3">
-                    <div class="text-center">
+                <div class="block col-sm-3 col-md-3">
+                    <div class="text-center howitworks-txt">
                         <div class="caption">
                             <span>Visit a maker</span><br>
                             <span>learn how things are made</span>
@@ -86,8 +97,8 @@
                         <img src="img/door.png" alt="door">
                     </div>
                 </div>
-                <div class="block col-sm-6 col-md-3" data-animation="">
-                    <div class="text-center">
+                <div class="block col-sm-3 col-md-3">
+                    <div class="text-center howitworks-txt">
                         <div class="caption decorated-text">
                             <span>Share with the world</span>
                         </div>
@@ -95,16 +106,228 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-dm-12">
-                    <h2 class="section_header">Explore the world</h2>
-                    <span>Visit product tours, participate in master classes, buy unique products from local makers</span>
+                    <div class="text-center explore-txt">
+                        <h2 class="section_header">Explore the world</h2>
+                        <span>Visit product tours, participate in master classes, buy unique products from local makers</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container"></div>
-    </footer>
+        <div class="main-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-content-box">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="main-content-img-box">
+                                    <img class="main-content-img" src="img/bamboo.png" alt="bamboo">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="main-content-info">
+                                    <h3>Learn to make bamboo bikes in Kentuku Burundi workshop</h3><br>
+                                    <p>Kentuku Burundi lives in Ghana. He dedicated his life to improving lives of his nabour peasants. He builds bikes that allow people in his village travel faster to their jobs, and their children get to their school which is 5km away.
+                                        Every wednesday Kentuku Burundi teaches his craft in his workshop in Accra, Ghana</p>
+                                </div>
+                                <div class="buttons-cont">
+                                    <button class="btn btn-tour link-a">tour</button>
+                                    <button class="btn btn-masterClass link-a">master class</button>
+                                    <button class="btn btn-shop link-a">shop</button>
+                                </div>
+                                <hr>
+                                <div class="newsAuthor">
+                                    <img class="newsAuthor-img" src="img/avatar.png" alt="avatar">
+                                    <div class="newsAuthor-info">
+                                        <span class="name">Kentuku Burundi</span><br>
+                                        <span class="role">founder, maker</span>
+                                    </div>
+                                    <div class="newsAuthor-location">
+                                        <div class="location-icon"></div>
+                                        <span class="name">Accra, Ghana</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="main-content-box">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-7">
+                                <div class="main-content-img-box">
+                                    <img class="main-content-img" src="img/cheese.png" alt="cheese">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-5">
+                                <div class="main-content-info">
+                                    <h3>Shop among 150 types of cheese at Charlie’s shop</h3><br>
+                                    <p>Charlie’s is a unique place where you can not only try and buy cheese, but also learn about the history of the place, meet the makers, and order a gift basket for a special occasion.</p>
+                                </div>
+                                <div class="buttons-cont">
+                                    <button class="btn btn-shop link-a">shop</button>
+                                </div>
+                                <hr>
+                                <div class="newsAuthor">
+                                    <img class="newsAuthor-img" src="img/avatar.png" alt="avatar">
+                                    <div class="newsAuthor-info">
+                                        <span class="name">Christian Robin</span><br>
+                                        <span class="role">owner</span>
+                                    </div>
+                                    <div class="newsAuthor-location">
+                                        <div class="location-icon"></div>
+                                        <span class="name">Kokomo, USA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="main-content-box">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-7 pull-right-sm">
+                                <div class="main-content-img-box">
+                                    <img class="main-content-img" src="img/guitar.png" alt="guitar">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-5">
+                                <div class="main-content-info">
+                                    <h3>Martin & Co. Guitars factory tour</h3><br>
+                                    <p>Martin & Co. has been creating the finest instruments in the world for over 175 years. It continues to innovate, introducing techniques and features that have become industry standards. One of the world's leading acoustic instrument makers, Martin guitars are hand-made by skilled craftsmen and women, who use a combination of new design and techniques along with those introduced by the company founder.</p>
+                                </div>
+                                <div class="buttons-cont">
+                                    <button class="btn btn-tour link-a">tour</button>
+                                    <button class="btn btn-shop link-a">shop</button>
+                                </div>
+                                <hr>
+                                <div class="newsAuthor">
+                                    <img class="newsAuthor-img" src="img/avatar.png" alt="avatar">
+                                    <div class="newsAuthor-info">
+                                        <span class="name">Martin & Co. Guitars</span><br>
+                                        <span class="role">tour guide</span>
+                                    </div>
+                                    <div class="newsAuthor-location">
+                                        <div class="location-icon"></div>
+                                        <span class="name">Nazareth, Pennsylvania</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-content-box">
+                        <div class="row">
+                            <div class="col-md-8 pull-right-md">
+                                <div class="main-content-img-box">
+                                    <img class="main-content-img" src="img/disiner.png" alt="disiner">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="main-content-info">
+                                    <h3>Meet Aggelika Karali, boho jewelry designer and maker</h3><br>
+                                    <p>Before she started designing bold, boho jewelry for her brand, Break A Stone, Aggelika Karali spent seven years working as a tax consultant.<p class="quote">“I was brought up in a society that considers working full time at some kind of firm as the main way to be successful. I always wondered if I could just quit my job, ‘break this stone,’ and start working on something based on creativity and hand work.”</p>Today Aggelika, who is based in Athens, Greece, splits her time between working on her business and raising her eight-year-old daughter.</p>
+                                </div>
+                                <div class="buttons-cont">
+                                    <button class="btn btn-tour link-a">tour</button>
+                                    <button class="btn btn-masterClass link-a">master class</button>
+                                    <button class="btn btn-shop link-a">shop</button>
+                                </div>
+                                <hr>
+                                <div class="newsAuthor">
+                                    <img class="newsAuthor-img" src="img/avatar.png" alt="avatar">
+                                    <div class="newsAuthor-info">
+                                        <span class="name">Angelina Kick</span><br>
+                                        <span class="role">founder, maker</span>
+                                    </div>
+                                    <div class="newsAuthor-location">
+                                        <div class="location-icon"></div>
+                                        <span class="name">Athens, Greece</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="main-content-box">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-7">
+                                <div class="main-content-img-box">
+                                    <img class="main-content-img" src="img/moto.png" alt="moto">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-5">
+                                <div class="main-content-info">
+                                    <h3>Tesla master class</h3><br>
+                                    <p>Kokomo Opalescent Glass is a manufacturer of colored glass for art and architecture with worldwide distribution and a strong commitment to research, education, and promoting sheet glass art.</p>
+                                </div>
+                                <div class="buttons-cont">
+                                    <button class="btn btn-shop link-a">shop</button>
+                                </div>
+                                <hr>
+                                <div class="newsAuthor">
+                                    <img class="newsAuthor-img" src="img/avatar.png" alt="avatar">
+                                    <div class="newsAuthor-info">
+                                        <span class="name">Angelina Kick</span><br>
+                                        <span class="role">founder, maker</span>
+                                    </div>
+                                    <div class="newsAuthor-location">
+                                        <div class="location-icon"></div>
+                                        <span class="name">Kokomo, USA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="main-content-box">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-7 pull-right-sm">
+                                <div class="main-content-img-box">
+                                    <img class="main-content-img" src="img/handspun.png" alt="handspun">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-5">
+                                <div class="main-content-info">
+                                    <h3>Handspun bulky yarn by Matney Warner</h3><br>
+                                    <p>Specializing in Handspun Yarn, Yospun strives to create a modern feel from the ancient craft of spinning. You will find Homegrown goods from farm to spool, with a promised fashionable touch. Each item designed with heart. Enjoy.</p>
+                                </div>
+                                <div class="buttons-cont">
+                                    <button class="btn btn-tour link-a">tour</button>
+                                    <button class="btn btn-shop link-a">shop</button>
+                                </div>
+                                <hr>
+                                <div class="newsAuthor">
+                                    <img class="newsAuthor-img" src="img/avatar.png" alt="avatar">
+                                    <div class="newsAuthor-info">
+                                        <span class="name">Angelina Kick</span><br>
+                                        <span class="role">founder, maker</span>
+                                    </div>
+                                    <div class="newsAuthor-location">
+                                        <div class="location-icon"></div>
+                                        <span class="name">Accra, Ghana</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container"></div>
+</footer>
 </body>
 </html>
