@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
 </head>
 <body>
 <section class="section-header">
     <header>
         <div class="row">
-            <div class="col-md-6 col-sm-5 mainmenu-wrap">
+            <div class="col-md-6 col-sm-5 col-xs-6 mainmenu-wrap">
                 <div class="navbar-header">
+                    <div class="navbar-header-menu-icon visible-sm visible-xs"></div>
                     <span class="logo">Digmakers</span>
                 </div>
-
             </div>
-            <div class="col-md-6 col-sm-7">
+            <div class="col-md-6 col-sm-7 col-xs-6">
 
                 <a href="#" class="link-a firePit-link"><img src="img/firepit.png" alt="firepit">Our story</a>
 
-                <input class="input-top visible-md" type="text" placeholder="Email address">
-                <button class="joinBtn visible-md">Join</button>
-                <a href="#" class="link-a join-link visible-sm"><div class="join-icon"></div> Join</a>
+                <input class="input-top" type="text" placeholder="Email address">
+                <button class="joinBtn">Join</button>
+                <a href="#" class="link-a join-link visible-sm visible-xs"><div class="join-icon"></div> Join</a>
 
                 <a href="#" class="loginBtn link-a"><img src="img/loginIcon.png" alt="loginIcon">Log in</a>
 
@@ -37,7 +40,7 @@
                 </div>
             </div>
             <div class="row header-content-main">
-                <div class="col-md-6 col-sm-7">
+                <div class="col-md-6 col-sm-7 col-xs-12">
                     <div class="border-right">
                         <p class="txt-header">Learn, get inspired, and travel differentely with production tours, master classes, and local products from makers</p>
 
@@ -49,9 +52,9 @@
                     <div class="earth-icon"><a href="/"></a></div>
                     <p class="earth-icon-txt">or <a class="link-a" href="/">explore all</a></p>
                 </div>
-                <div class="col-md-6 col-sm-5">
+                <div class="col-md-6 col-sm-5 col-xs-12 left-right-padding-off">
                     <div class="header-content-main-right">
-                        <p class="">Do you know interesting makers?<br class="visible-md"> Share with<br class="visible-sm"> the world!</p>
+                        <p class="">Do you know interesting makers?<br class="visible-md visible-lg"> Share with<br class="visible-sm"> the world!</p>
                         <button class="addBtn">Add a maker</button>
                     </div>
                 </div>
@@ -69,7 +72,7 @@
             </div>
             <div class="row">
                 <div class="block col-sm-3 col-md-3 col-xs-3">
-                    <div class="text-center howitworks-txt">
+                    <div class="text-center howitworks-txt xs-margin">
                         <div class="caption">
                             <span>Enter location you</span><br>
                             <span>are traveling to</span>
@@ -77,7 +80,7 @@
                         <img src="img/world.png" alt="world">
                     </div>
                 </div>
-                <div class="block col-sm-3 col-md-3 col-xs-3">
+                <div class="block col-sm-3 col-md-3 col-xs-3 xs-margin">
                     <div class="text-center howitworks-txt">
                         <div class="caption">
                             <span>Choose maker</span><br>
@@ -86,16 +89,16 @@
                         <img src="img/todo.png" alt="todo">
                     </div>
                 </div>
-                <div class="block col-sm-3 col-md-3 col-xs-3">
+                <div class="block col-sm-3 col-md-3 col-xs-3 left-right-padding-off">
                     <div class="text-center howitworks-txt">
                         <div class="caption">
                             <span>Visit a maker</span><br>
-                            <span>learn how things are made</span>
+                            <span>learn how things <br class="visible-xs">are made</span>
                         </div>
                         <img src="img/door.png" alt="door">
                     </div>
                 </div>
-                <div class="block col-sm-3 col-md-3 col-xs-3">
+                <div class="block col-sm-3 col-md-3 col-xs-3 xs-margin">
                     <div class="text-center howitworks-txt">
                         <div class="caption decorated-text">
                             <span>Share with the world</span>
@@ -108,7 +111,7 @@
                 <div class="col-dm-12">
                     <div class="text-center explore-txt">
                         <h2 class="section_header">Explore the world</h2>
-                        <span>Visit product tours, participate in master classes, buy unique products from local makers</span>
+                        <span>Visit product tours, participate in master classes, <br class="visible-xs">buy unique products from local makers</span>
                     </div>
                 </div>
             </div>
@@ -118,6 +121,11 @@
                 <div class="col-md-12 col-xs-12">
                     <div class="main-content-box">
                         <div class="row">
+                            <div class="col-sm-12 col-xs-12 col-sm-12 visible-sm visible-xs">
+                                <div class="main-content-info">
+                                    <h3>Learn to make bamboo bikes in Kentuku Burundi workshop</h3>
+                                </div>
+                            </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="main-content-img-box">
                                     <img class="main-content-img" src="img/bamboo.png" alt="bamboo">
@@ -125,7 +133,7 @@
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <div class="main-content-info">
-                                    <h3>Learn to make bamboo bikes in Kentuku Burundi workshop</h3><br>
+                                    <h3 class="visible-md visible-lg">Learn to make bamboo bikes in Kentuku Burundi workshop</h3><br class="visible-md visible-lg">
                                     <p>Kentuku Burundi lives in Ghana. He dedicated his life to improving lives of his nabour peasants. He builds bikes that allow people in his village travel faster to their jobs, and their children get to their school which is 5km away.
                                         Every wednesday Kentuku Burundi teaches his craft in his workshop in Accra, Ghana</p>
                                 </div>
@@ -155,6 +163,11 @@
                 <div class="col-md-6 col-xs-12">
                     <div class="main-content-box">
                         <div class="row">
+                            <div class="col-xs-12 visible-xs">
+                                <div class="main-content-info">
+                                    <h3>Shop among 150 types of cheese at Charlie’s shop</h3>
+                                </div>
+                            </div>
                             <div class="col-md-12 col-sm-7 col-xs-12">
                                 <div class="main-content-img-box">
                                     <img class="main-content-img" src="img/cheese.png" alt="cheese">
@@ -162,7 +175,7 @@
                             </div>
                             <div class="col-md-12 col-sm-5 col-xs-12">
                                 <div class="main-content-info">
-                                    <h3>Shop among 150 types of cheese at Charlie’s shop</h3><br>
+                                    <h3 class="visible-md visible-lg visible-sm">Shop among 150 types of cheese at Charlie’s shop</h3><br>
                                     <p>Charlie’s is a unique place where you can not only try and buy cheese, but also learn about the history of the place, meet the makers, and order a gift basket for a special occasion.</p>
                                 </div>
                                 <div class="buttons-cont">
@@ -187,6 +200,11 @@
                 <div class="col-md-6 col-xs-12">
                     <div class="main-content-box">
                         <div class="row">
+                            <div class="col-xs-12 visible-xs">
+                                <div class="main-content-info">
+                                    <h3>Martin & Co. Guitars factory tour</h3>
+                                </div>
+                            </div>
                             <div class="col-md-12 col-sm-7 pull-right-sm col-xs-12">
                                 <div class="main-content-img-box">
                                     <img class="main-content-img" src="img/guitar.png" alt="guitar">
@@ -194,7 +212,7 @@
                             </div>
                             <div class="col-md-12 col-sm-5 col-xs-12">
                                 <div class="main-content-info">
-                                    <h3>Martin & Co. Guitars factory tour</h3><br>
+                                    <h3 class="visible-md visible-lg visible-sm">Martin & Co. Guitars factory tour</h3><br>
                                     <p>Martin & Co. has been creating the finest instruments in the world for over 175 years. It continues to innovate, introducing techniques and features that have become industry standards. One of the world's leading acoustic instrument makers, Martin guitars are hand-made by skilled craftsmen and women, who use a combination of new design and techniques along with those introduced by the company founder.</p>
                                 </div>
                                 <div class="buttons-cont">
@@ -222,6 +240,11 @@
                 <div class="col-md-12">
                     <div class="main-content-box">
                         <div class="row">
+                            <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                                <div class="main-content-info">
+                                    <h3>Meet Aggelika Karali, boho jewelry designer and maker</h3>
+                                </div>
+                            </div>
                             <div class="col-md-8 pull-right-md col-xs-12">
                                 <div class="main-content-img-box">
                                     <img class="main-content-img" src="img/disiner.png" alt="disiner">
@@ -229,7 +252,7 @@
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <div class="main-content-info">
-                                    <h3>Meet Aggelika Karali, boho jewelry designer and maker</h3><br>
+                                    <h3 class="visible-md visible-lg">Meet Aggelika Karali, boho jewelry designer and maker</h3><br class="visible-md visible-lg">
                                     <p>Before she started designing bold, boho jewelry for her brand, Break A Stone, Aggelika Karali spent seven years working as a tax consultant.<p class="quote">“I was brought up in a society that considers working full time at some kind of firm as the main way to be successful. I always wondered if I could just quit my job, ‘break this stone,’ and start working on something based on creativity and hand work.”</p>Today Aggelika, who is based in Athens, Greece, splits her time between working on her business and raising her eight-year-old daughter.</p>
                                 </div>
                                 <div class="buttons-cont">
@@ -258,6 +281,11 @@
                 <div class="col-md-6 col-xs-12">
                     <div class="main-content-box">
                         <div class="row">
+                            <div class="col-xs-12 visible-xs">
+                                <div class="main-content-info">
+                                    <h3>Tesla master class</h3>
+                                </div>
+                            </div>
                             <div class="col-md-12 col-sm-7 col-xs-12">
                                 <div class="main-content-img-box">
                                     <img class="main-content-img" src="img/moto.png" alt="moto">
@@ -265,7 +293,7 @@
                             </div>
                             <div class="col-md-12 col-sm-5 col-xs-12">
                                 <div class="main-content-info">
-                                    <h3>Tesla master class</h3><br>
+                                    <h3 class="visible-md visible-lg visible-sm">Tesla master class</h3><br>
                                     <p>Kokomo Opalescent Glass is a manufacturer of colored glass for art and architecture with worldwide distribution and a strong commitment to research, education, and promoting sheet glass art.</p>
                                 </div>
                                 <div class="buttons-cont">
@@ -290,6 +318,11 @@
                 <div class="col-md-6 col-xs-12">
                     <div class="main-content-box">
                         <div class="row">
+                            <div class="col-xs-12 visible-xs">
+                                <div class="main-content-info">
+                                    <h3>Tesla master classHandspun bulky yarn by Matney Warner</h3>
+                                </div>
+                            </div>
                             <div class="col-md-12 col-sm-7 pull-right-sm col-xs-12">
                                 <div class="main-content-img-box">
                                     <img class="main-content-img" src="img/handspun.png" alt="handspun">
@@ -297,7 +330,7 @@
                             </div>
                             <div class="col-md-12 col-sm-5 col-xs-12">
                                 <div class="main-content-info">
-                                    <h3>Handspun bulky yarn by Matney Warner</h3><br>
+                                    <h3 class="visible-md visible-lg visible-sm">Handspun bulky yarn by Matney Warner</h3><br>
                                     <p>Specializing in Handspun Yarn, Yospun strives to create a modern feel from the ancient craft of spinning. You will find Homegrown goods from farm to spool, with a promised fashionable touch. Each item designed with heart. Enjoy.</p>
                                 </div>
                                 <div class="buttons-cont">
@@ -323,7 +356,8 @@
             </div>
         </div>
         <div class="main-bottom-container text-center">
-            <button class="btn btn-exploreaAll link-a">Explore all featured makers</button>
+            <button class="btn btn-exploreAll link-a visible-md visible-lg">Explore all featured makers</button>
+            <button class="btn btn-exploreAll link-a visible-sm visible-xs">Explore all makers</button>
         </div>
     </div>
 </main>
@@ -331,7 +365,7 @@
     <section class="section-footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 col-sm-7">
                 <h1 class="footer-h1">Become an ambassador</h1>
                 <p class="footer-txt">If you are a maker or you meet amazing makers when you travel, let the world know!
                     Share your passion for people, products, traditions, processes, and technologies!</p>
@@ -343,11 +377,11 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
+                <div class="col-md-1 col-sm-0 col-xs-0"></div>
+                <div class="col-md-10 col-sm-12 col-xs-12">
                     <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-3">
+                        <div class="col-md-1 col-sm-0"></div>
+                        <div class="col-md-3 col-sm-4 visible-lg visible-dm visible-sm">
                             <div class="footer-content-box footer-border-right">
                                 <h3 class="footer-bottom-h3">About Digmakers</h3>
                                 <a href="" class="listElem">About Digmakers</a><br>
@@ -357,16 +391,16 @@
                                 <a href="" class="listElem">Terms of use</a><br>
                             </div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-sm-5 col-xs-7">
                             <div class="footer-content-box footer-border-right">
                                 <h3 class="footer-bottom-h3">Join the curious crowd!</h3>
                                 <p class="footer-bottom-txt">We’ll let you know about new tours, master
                                     classes, makers, and products around the world:</p>
-                                <input class="input-top footer-bottom-input" type="text" placeholder="Email address">
-                                <button class="joinBtn">Go</button>
+                                <input class="input-bottom footer-bottom-input" type="text" placeholder="Email address">
+                                <button class="goBtn">Go</button>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3 col-xs-5">
                             <div class="footer-content-box">
                                 <h3 class="footer-bottom-h3">Connect</h3>
                                 <div class="socialIcons">
@@ -379,10 +413,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-1 col-sm-0"></div>
             </div>
         </div>
-        <p class="footer-copyright">© 2016, Digmakers</p>
+        <p class="footer-copyright visible-lg visible-dm visible-sm">© 2016, Digmakers</p>
     </div>
 </footer>
 </body>
